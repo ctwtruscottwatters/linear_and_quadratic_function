@@ -20,6 +20,6 @@ def solve_linear_function(m, b, point=0):
     print("The value at the point {} of {} * {} + {} is:\t{}".format(point, m, point, b, m * point + b))
     
 def main():
-    solve_linear_function(2481, 1955, 0)
-    solve_quadratic_function(1955, 1993, 0)
+    solve_linear_function(2481, 1955, 1993)
+    solve_quadratic_function(1955, 1993, 2481)
 if __name__ == "__main__": main()
